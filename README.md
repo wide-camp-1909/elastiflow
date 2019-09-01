@@ -1,23 +1,47 @@
 # ElastiFlow&trade;
 
+WIDE Camp に向けて、デフォルトの状態から変更をしています.
+
+```AA
+■■   ■■   ■  ■■  ■■■■■    ■■■■■■
+ ■   ■■   ■  ■■  ■■  ■■   ■■    
+ ■   ■■   ■  ■■  ■■   ■■  ■■    
+ ■  ■ ■  ■■  ■■  ■■    ■  ■■    
+ ■■ ■ ■■ ■   ■■  ■■    ■  ■■■■■ 
+ ■■ ■  ■ ■   ■■  ■■    ■  ■■    
+  ■ ■  ■ ■   ■■  ■■    ■  ■■    
+  ■■■  ■■■   ■■  ■■   ■■  ■■    
+  ■■   ■■■   ■■  ■■  ■■   ■■    
+  ■■    ■    ■■  ■■■■■    ■■■■■■
+```
+
+ソフトウェアの起動コマンド.
+
+```Docker
+docker-compose up -d
+```
+
+NetFlow の動作確認に使ったツール
+[NetFlow-Generator](https://github.com/mshindo/NetFlow-GeneratorNetFlow-Generator)
+
 [![patreon](https://user-images.githubusercontent.com/10326954/52966127-c9847680-33a6-11e9-8640-10dd7abc3af0.png)](https://www.patreon.com/elastiflow) [![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.paypal.me/robcowart) [![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)](https://twitter.com/intent/tweet?text=ElastiFlow%E2%84%A2%20provides%20Netflow%20v5%2Fv9%2C%20sFlow%20and%20IPFIX%20data%20collection%20and%20visualization%20using%20the%20Elastic%20Stack.&url=https://github.com/robcowart/elastiflow&hashtags=elastiflow,netflow,sflow,ipfix)
 
 > SUPPORTING ElastiFlow&trade; - Today literally 1000s of users leverage ElastiFlow&trade; As a powerful alternative to expensive commercial flow collecting solutions. As its popularity has increased, so has the time commitment necessary to support users and provide further enhancements. If you are one of the organizations who appreciate the value of ElastiFlow&trade;, I would like to ask you to consider becoming a sponsor. The support from sponsors allows me dedicate more time and energy to the project. To become a sponsor, please visit ElastiFlow on [![patreon](https://user-images.githubusercontent.com/10326954/52966127-c9847680-33a6-11e9-8640-10dd7abc3af0.png)](https://www.patreon.com/elastiflow).
 
 ElastiFlow&trade; provides network flow data collection and visualization using the Elastic Stack (Elasticsearch, Logstash and Kibana). It supports Netflow v5/v9, sFlow and IPFIX flow types (1.x versions support only Netflow v5/v9).
 
-![ElastiFlow&trade;](https://user-images.githubusercontent.com/10326954/57181284-fc141a80-6e91-11e9-9ec5-d0864c25a088.png)
+![ElastiFlow™](https://user-images.githubusercontent.com/10326954/57181284-fc141a80-6e91-11e9-9ec5-d0864c25a088.png)
 
 I was inspired to create ElastiFlow&trade; following the overwhelmingly positive feedback received to an article I posted on Linkedin... [WTFlow?! Are you really still paying for commercial solutions to collect and analyze network flow data?](https://www.linkedin.com/pulse/wtflow-you-really-still-paying-commercial-solutions-collect-cowart)
 
 ## User Testimonials
 
-Organization | Feedback
---- | ---
-![ESnet](https://user-images.githubusercontent.com/10326954/44616427-b2c5f280-a84f-11e8-8add-1a458bffec68.png) | ***“Right now this is my personal favorite analytics tool. I use it extensively and am always finding a new way to leverage it."***
-![Payback](https://user-images.githubusercontent.com/10326954/44616291-64afef80-a84d-11e8-804f-6537897bfe85.png) | ***"We're using it since two months in our new datacenter and our network admins are very happy and impressed."***
-![Catapult Systems](https://user-images.githubusercontent.com/10326954/44616396-2c111580-a84f-11e8-92dd-a509064d02f8.png) | ***"Of all the netflow tools I’ve tested it has, by far, the best visualizations."***
-![Imagine Software](https://user-images.githubusercontent.com/10326954/44616477-ee14f100-a850-11e8-9133-26917020e685.png) | ***"We absolutely love ElastiFlow and recently stood it up in production. Looking forward to new functionality and dashboards."***
+| Organization                                                                                                              | Feedback                                                                                                                            |
+| ------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------- |
+| ![ESnet](https://user-images.githubusercontent.com/10326954/44616427-b2c5f280-a84f-11e8-8add-1a458bffec68.png)            | **_“Right now this is my personal favorite analytics tool. I use it extensively and am always finding a new way to leverage it."_** |
+| ![Payback](https://user-images.githubusercontent.com/10326954/44616291-64afef80-a84d-11e8-804f-6537897bfe85.png)          | **_"We're using it since two months in our new datacenter and our network admins are very happy and impressed."_**                  |
+| ![Catapult Systems](https://user-images.githubusercontent.com/10326954/44616396-2c111580-a84f-11e8-92dd-a509064d02f8.png) | **_"Of all the netflow tools I’ve tested it has, by far, the best visualizations."_**                                               |
+| ![Imagine Software](https://user-images.githubusercontent.com/10326954/44616477-ee14f100-a850-11e8-9133-26917020e685.png) | **_"We absolutely love ElastiFlow and recently stood it up in production. Looking forward to new functionality and dashboards."_**  |
 
 ## Getting Started
 
