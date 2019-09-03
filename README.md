@@ -16,3 +16,18 @@ $ docker-compose up -d
 
 ## Hints
 - **[NetFlow-Generator](https://github.com/mshindo/NetFlow-Generator):** Generate arbitrary NetFlow V5 flow records
+
+## Storage Capacity
+check the storage capacity
+
+```
+curl  'localhost:9200/_cat/indices?v'
+```
+
+if health is yellow, you should delete index.
+
+delete command.
+```
+curl -XDELETE  'localhost:9200/elastiflow-3.5.1-2019.09.03'
+```
+[reference](https://stackoverflow.com/questions/22924300/removing-data-from-elasticsearch)
