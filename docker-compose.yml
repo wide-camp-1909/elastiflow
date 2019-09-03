@@ -33,7 +33,7 @@ services:
       # JVM Heap size
       #   - this should be at least 2GB for simple testing, receiving only a few flows per second.
       #   - for production environments upto 31GB is recommended.
-      ES_JAVA_OPTS: "-Xms1g -Xmx1g"
+      ES_JAVA_OPTS: "-Xms3g -Xmx3g"
 
       cluster.name: elastiflow
 
@@ -77,7 +77,7 @@ services:
     environment:
       SERVER_HOST: 0.0.0.0
       # JVM Heap size - this MUST be at least 3GB (4GB preferred)
-      LS_JAVA_OPTS: "-Xms3g -Xmx3g"
+      LS_JAVA_OPTS: "-Xms4g -Xmx4g"
 
       # ElastiFlow global configuration
       ELASTIFLOW_DEFAULT_APPID_SRCTYPE: "__UNKNOWN"
